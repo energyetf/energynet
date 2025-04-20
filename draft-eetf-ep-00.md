@@ -8,18 +8,12 @@
 Published: April 2025
 Initiated: February 2023
 Status: Public Draft
-Revision: 00
+Revision: 01
 
 Abstract
 
   This document provides a high-level overview of the Energy Protocol (EP)
   specification, explaining its purpose, design goals, and modular structure.
-  
-Copyright Notice
-
-  Copyright (c) 2025 Energy Engineering Task Force (EnergyETF)
-  and the persons identified as the document authors.
-  All rights reserved.
 
 Table of Contents
 
