@@ -8,7 +8,7 @@
 Published: April 2025
 Initiated: February 2023
 Status: Public Draft
-Revision: 00
+Revision: 01
 
 Abstract
 
@@ -18,12 +18,6 @@ Abstract
   multiple underlying mediums, with mandatory encryption and clear message
   serialization. Specific bindings (e.g., Ethernet/TCP, BLE-UART) are defined
   in separate documents.
-
-Copyright Notice
-
-  Copyright (c) 2025 Energy Engineering Task Force (EnergyETF)
-  and the persons identified as the document authors.
-  All rights reserved.
 
 Table of Contents
 
