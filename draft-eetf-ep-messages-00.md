@@ -8,7 +8,7 @@
 Published: April 2025
 Initiated: February 2023
 Status: Public Draft
-Revision: 00
+Revision: 01
 
 Abstract
 
@@ -16,12 +16,6 @@ Abstract
   message structures for energy supply, demand, and storage parameters.
   It also standardizes how devices express values like power, voltage,
   current, energy, price, etc in a value type explicit manner.
-
-Copyright Notice
-
-  Copyright (c) 2025 Energy Engineering Task Force (EnergyETF)
-  and the persons identified as the document authors.
-  All rights reserved.
 
 Table of Contents
 
