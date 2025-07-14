@@ -1,13 +1,13 @@
 ﻿```
 +-----------------------------------------------------------------------------+
 |                             The Energy Protocol                             |
-| 						                                                      |
+|                                                                             |
 |                            Framing and Transport                            |
 +-----------------------------------------------------------------------------+
 
 Initiated: February 2023
 Public: April 2025
-Revised: May 2025
+Revised: June 2025
 
 Abstract
 
@@ -106,7 +106,7 @@ Table of Contents
     9A 00 00 00 03                          EP Frame start (array(3))
     F6                                      Empty header (null)
     1A DC DC F0 0D                          Message type (uint32)
-    C2 58 98                                Payload data (bytestring(152))
+    58 98                                   Payload data (bytestring(152))
        A8 .. .. .. ..                       Serialized message data (CBOR)
 
   After each message, the stream should restart with a 9A 00 00 00 03 byte
@@ -154,7 +154,7 @@ Acknowledgments
 
   The EnergyNet Task Force wants to extend its heartfelt thanks to everyone
   who is playing a part in making this protocol a success. Your contributions
-  — whether large or small — are truly appreciated.
+  - whether large or small - are truly appreciated.
 
 Contact Information
 

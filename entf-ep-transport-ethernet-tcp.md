@@ -1,7 +1,7 @@
 ```
 +-----------------------------------------------------------------------------+
 |                             The Energy Protocol                             |
-| 						                                                      |
+|                                                                             |
 |                        EP over Ethernet/TCP Binding                         |
 +-----------------------------------------------------------------------------+
 
@@ -74,7 +74,7 @@ Acknowledgments
 
   The EnergyNet Task Force wants to extend its heartfelt thanks to everyone
   who is playing a part in making this protocol a success. Your contributions
-  — whether large or small — are truly appreciated.
+  - whether large or small - are truly appreciated.
 
 Contact Information
 

@@ -1,13 +1,13 @@
 ﻿```
 +-----------------------------------------------------------------------------+
 |                             The Energy Protocol                             |
-| 						                                                      |
+|                                                                             |
 |                            Data Model & Messages                            |
 +-----------------------------------------------------------------------------+
 
 Initiated: February 2023
 Public: April 2025
-Revised: May 2025
+Revised: June 2025
 
 Abstract
 
@@ -226,12 +226,9 @@ Table of Contents
 4.1.1. Ping binary example
   Header:
     9A 00 00 00 03                          EP Frame start
-    F6                         		        No headers
+    F6                         		          No headers
     1A FF FF FF FF                          Message type
-    F6                                      No message
-
-  Payload:
-    F6                                      Payload data (null)
+    F6                                      No payload (null)
 
 4.2. Session Parameters (0xbaba5e55)
   This message type is used to define a device session.  It includes the
@@ -264,9 +261,9 @@ Table of Contents
 4.2.1. Session Parameters binary example
   Header:
     9A 00 00 00 03                          EP Frame start
-    F6                         		        No extra headers
+    F6                                      No extra headers
     1A BA BA 5E 55                          Message type
-    C2 58 58                                Message payload (88 bytes)
+    58 58                                   Message payload (88 bytes)
 
   Payload:
     A7                                      Session (7 props)
@@ -303,9 +300,9 @@ Table of Contents
 4.3.1. Soft Disconnect binary example
   Header:
     9A 00 00 00 03                          EP Frame start
-    F6                         		        No extra headers
+    F6                                      No extra headers
     1A BA BA DE AD                          Message type
-    C2 4F                                   Message payload (15 bytes)
+    4F                                      Message payload (15 bytes)
 
   Payload:
     A2                                      Disconnect (2 props)
@@ -332,9 +329,9 @@ Table of Contents
 4.4.1. Supply Parameters binary example
   Header:
     9A 00 00 00 03                          EP Frame start
-    F6                         		        No extra headers
+    F6                                      No extra headers
     1A DC DC F0 0D                          Message type
-    C2 58 96                                Message payload (150 bytes - TBD)
+    58 96                                   Message payload (150 bytes - TBD)
 
   Payload:
     A8                                      Supply (8 props)
@@ -366,9 +363,9 @@ Table of Contents
 4.5.1. Demand Parameters binary example
   Header:
     9A 00 00 00 03                          EP Frame start
-    F6                         		        No extra headers
+    F6                                      No extra headers
     1A DC DC FE ED                          Message type
-    C2 58 70                                Message payload (112 bytes - TBD)
+    58 70                                   Message payload (112 bytes - TBD)
 
   Payload:
     A6                                      Demand (6 props)
@@ -389,9 +386,9 @@ Table of Contents
 4.6.1. Storage Parameters binary example
   Header:
     9A 00 00 00 03                          EP Frame start
-    F6                         		        No extra headers
+    F6                                      No extra headers
     1A DC DC FE ED                          Message type
-    C2 58 70                                Message payload (112 bytes - TBD)
+    58 70                                   Message payload (112 bytes - TBD)
 
   Payload:
     A5                                      Storage (5 props)
@@ -410,7 +407,7 @@ Acknowledgments
 
   The EnergyNet Task Force wants to extend its heartfelt thanks to everyone
   who is playing a part in making this protocol a success. Your contributions
-  — whether large or small — are truly appreciated.
+  - whether large or small - are truly appreciated.
 
 Contact Information
 
